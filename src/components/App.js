@@ -8,10 +8,10 @@ const App = () => {
       <form>
         <div className="form-group">
           <label htmlFor="formEventTitle">タイトル</label>
-          <input className="form-control" id="formEventTitle"/>
+          <input className="form-control" id="formEventTitle" />
           <div className="form-group">
-          <label htmlFor="formEventBody">ボディ</label>
-          <textarea className="form-control" id="formEventBody"/>
+            <label htmlFor="formEventBody">ボディ</label>
+            <textarea className="form-control" id="formEventBody" />
           </div>
           <button className="btn btn-primary">イベントを作成する</button>
           <button className="btn btn-danger ">イベントを削除する</button>
@@ -20,7 +20,7 @@ const App = () => {
             <thead>
               <tr>
                 <th>ID</th>
-                <th>タイトル</th>
+                <th>タイトルa</th>
                 <th>ボディ</th>
                 <th></th>
               </tr>
